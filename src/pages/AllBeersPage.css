@@ -1,0 +1,37 @@
+.one_beer{
+    display: flex;
+    margin: 40px 0;
+}
+
+.image_container{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
+.beer_img{
+    display: block;
+    height: 150px;
+}
+
+.beer_description{
+margin-left: 20px;
+}
+
+.beer_name{
+    font-weight: normal;
+    color: black;
+}
+
+.tagline, .creator{
+    margin: 5px 0;
+}
+
+.tagline{
+    color: rgb(179, 176, 176);
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.creator{
+    font-size: 0.9rem;
+}

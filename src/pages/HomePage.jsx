@@ -3,8 +3,7 @@ import "./HomePage.css"
 
 function HomePage() {
     return (
-        <>
-            <h1>LAB | React IronBeers</h1>
+        <div className="home_container">
             <div className="category">
                 <Link className="links" to="/beers">
                     <img src="/src/assets/beers.png" alt="beers" />
@@ -26,7 +25,7 @@ function HomePage() {
                 </Link>
                 <p>Create a new beer !</p>
             </div>
-        </>
+        </div>
     )
 }
 
